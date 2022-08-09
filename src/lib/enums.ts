@@ -1,0 +1,15 @@
+enum TripStatus {
+  SEARCHING = "SEARCHING",
+  REQUESTED = "REQUESTED",
+  ACCEPTED = "ACCEPTED",
+  ARRIVED = "ARRIVED",
+  STARTED = "STARTED",
+  COMPLETED = "COMPLETED",
+  CANCELLED = "CANCELLED",
+}
+
+enum VehicleType {
+  CAR = "CAR",
+  AUTO = "AUTO",
+  BIKE = "BIKE",
+}
