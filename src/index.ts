@@ -12,12 +12,11 @@ async function startApolloServer(typeDefs: DocumentNode, resolvers: any) {
   const server = new ApolloServer({
     typeDefs,
     resolvers,
+    csrfPrevention: true,
+    cache: "bounded",
   });
-  const { url, port } = await server.listen(PORT);
-
-  console.log(`🚀  Server is running
-      🔉  Listening on port ${port}
-      📭  Query at ${url}`);
+  const { url } = await server.listen(PORT);
+  console.log(`🚀 Server ready at ${url}`);
 }
 
 startApolloServer(schema, resolvers);
