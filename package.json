@@ -8,7 +8,7 @@
     "start": "ts-node src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "kakashiorion",
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "^4.1.1",

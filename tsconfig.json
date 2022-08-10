@@ -18,6 +18,5 @@
   },
   "compilerOptions": {
     // typescript options here
-    "esModuleInterop": true
   }
 }

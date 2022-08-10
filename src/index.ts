@@ -1,8 +1,8 @@
 import { ApolloServer } from "apollo-server";
-import { DocumentNode } from "graphql";
 import resolvers from "./graphql/resolvers/resolvers";
 import schema from "./graphql/schema";
 import dotenv from "dotenv";
+import { DocumentNode } from "graphql";
 
 dotenv.config();
 
